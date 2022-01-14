@@ -359,3 +359,26 @@ btnSort.addEventListener('click', function (e) {
 // console.log(Number('230_000')); //This will not work, it will give NaN
 
 /////////////////////////////////////////////////
+
+// //WORKING WITH BIGINT
+
+// //The biggest number javascript can represent
+// console.log(2 ** 53 - 1);
+// console.log(Number.MAX_SAFE_INTEGER);
+
+// console.log(9342937492837482734892739587239847n);
+// console.log(BigInt(9342937492837482734892739587239847));
+
+// // Operations
+// console.log(10000n + 10000n); //We can't mix bigints with regular numbers, it gives an error
+
+// // But we can still do
+// console.log(20n > 15);
+// console.log(20n === 20);
+// console.log(typeof 20n);
+
+// // String concatenation
+// console.log(30n + ' is really big!');
+
+// // Divisions
+// console.log(10n / 3n);
