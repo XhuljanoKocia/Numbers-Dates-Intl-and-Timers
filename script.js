@@ -326,19 +326,36 @@ btnSort.addEventListener('click', function (e) {
 
 /////////////////////////////////////////////////
 
-//THE REMAINDER OPERATOR
-console.log(5 % 2); // 5 = 2 * 2 + 1
-console.log(8 % 3); // 8 = 2 * 3 + 2
-console.log(6 % 2); // 6 = 2 * 3 + 0
+// //THE REMAINDER OPERATOR
+// console.log(5 % 2); // 5 = 2 * 2 + 1
+// console.log(8 % 3); // 8 = 2 * 3 + 2
+// console.log(6 % 2); // 6 = 2 * 3 + 0
 
-const isEven = n => n % 2 === 0;
-console.log(isEven(8));
-console.log(isEven(23));
-console.log(isEven(514));
+// const isEven = n => n % 2 === 0;
+// console.log(isEven(8));
+// console.log(isEven(23));
+// console.log(isEven(514));
 
-labelBalance.addEventListener('click', function () {
-  [...document.querySelectorAll('.movements__row')].forEach(function (row, i) {
-    if (i % 2 === 0) row.style.backgroundColor = 'orangered';
-    if (i % 3 === 0) row.style.backgroundColor = 'blue';
-  });
-});
+// labelBalance.addEventListener('click', function () {
+//   [...document.querySelectorAll('.movements__row')].forEach(function (row, i) {
+//     if (i % 2 === 0) row.style.backgroundColor = 'orangered';
+//     if (i % 3 === 0) row.style.backgroundColor = 'blue';
+//   });
+// });
+
+/////////////////////////////////////////////////
+
+// //NUMERIC SEPARATORS
+// const diameter = 287_460_000_000;
+// console.log(diameter);
+
+// const transferFee1 = 15_00;
+// const transferFee2 = 1_500;
+
+// // We can't place the underscore at the beginning, the end or right after the .
+// const PI = 3.14_15;
+// console.log(PI);
+
+// console.log(Number('230_000')); //This will not work, it will give NaN
+
+/////////////////////////////////////////////////
